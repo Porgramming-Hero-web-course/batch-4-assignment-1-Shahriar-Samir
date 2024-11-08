@@ -13,7 +13,7 @@ TypeScript is a object-oriented programming language created by Microsoft, which
 - In this example result can be either a string or a number.
 
 ## Why Union types of important?
-- Useful for handling scenorios where a variable might have different types in different contexts.
+- Useful for handling scenarios where a variable might have different types in different contexts.
 - Provides more flexibility without sacrificing type safety.
 
 ## What are Intersection types?

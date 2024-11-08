@@ -1,4 +1,6 @@
 {
+
+    // key validation function that returns boolean value
     const validateKeys = <T>(obj:T,arr:(keyof T)[]):boolean=>{
         for(let key of arr){
             if(!obj[key]){
