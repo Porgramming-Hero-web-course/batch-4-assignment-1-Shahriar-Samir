@@ -1,14 +1,16 @@
 # The significance of union and intersection types in Typescript
-TypeScript is a object-oriented programming language created by Microsoft, which is mainly built on top of JavaScript with extra built-in features. This language allows us to enhance code maintainability and catch errors or bugs before the program gets executed in runtime. There are several types in TypeScript which are the core features of TypeScript used from debug code. Among these features are union and intersection types, which helps us to create flexible and robust type definitions for applications.
+TypeScript is a object oriented programming language created by Microsoft, which is mainly built on top of JavaScript with extra built in features. This language allows us to enhance code maintainability and catch errors or bugs before the program gets executed in runtime. There are several types in TypeScript which are the core features of TypeScript used from debug code. Among these features are union and intersection types, which helps us to create flexible and robust type definitions for applications.
 
 ## What are union types?
 - Union allows a variable to hold values of multiple specified types. Its helpful when you want a value to be one of several types rather than a specific type. Here's an example:
 
-- let result: string | number;
+- let value: string | boolean | number;
   
-  result = "Success"; // This one is valid
+  value = "do it";  this won't give typeScript error
 
-  result = 42; // This is valid too
+  result = 540;   this won't give typeScript error
+
+  result = 540;   this won't give typeScript error
 
 - In this example result can be either a string or a number.
 
