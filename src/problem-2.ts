@@ -4,4 +4,5 @@
         // returns a new array with duplicates removed
         return arr.filter((num,index)=> index===arr.indexOf(num))
     }
+  
 }
