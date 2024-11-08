@@ -36,5 +36,5 @@ TypeScript is a object-oriented programming language created by Microsoft, which
 
 
 # Conclusion
-- Union and Intersection types are powerful tools in TypeScript that allow us to create complex types from existing ones. Union types let us declare a type that could be one of several types, while Intersection types allow us to combine multiple types into one. These features make our code more flexible and reusable, and they are essential for writing complex TypeScript applications.
+Union and Intersection types are powerful tools in TypeScript that allow us to create complex types from existing ones. Union types let us declare a type that could be one of several types, while Intersection types allow us to combine multiple types into one. These features make our code more flexible and reusable, and they are essential for writing complex TypeScript applications.
 
